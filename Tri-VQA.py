@@ -1,4 +1,4 @@
-class Tri_VQA(torch.nn.Module):
+class Tri_VQA(torch.nn.Module): 
     def __init__(self):
         super(Tri_VQA, self).__init__()
         self.question_dim = 768  # Dimension of BERT embeddings
